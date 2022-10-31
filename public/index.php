@@ -4,12 +4,6 @@ use App\Application;
 use App\Controllers\HomeController;
 use App\Controllers\CommentController;
 
-function x($n) {
-    return 'hey';
-}
-
-echo x();
-
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $app = new Application();
